@@ -16,10 +16,10 @@ const writeToFile = (outputArray,outputFilePath) =>{
                         + element.diagram + COLUMN_SEPARATOR
                         + utils.ensureValidColValue(element.c4Application) + COLUMN_SEPARATOR
                         + utils.ensureValidColValue(element.c4Name) + COLUMN_SEPARATOR
-                        + utils.ensureValidColValue(element.c4Description) + COLUMN_SEPARATOR
                         + utils.ensureValidColValue(element.c4Container) + COLUMN_SEPARATOR
                         + utils.ensureValidColValue(element.c4Technology) + COLUMN_SEPARATOR
-                        + utils.ensureValidColValue(element.c4Type)  + "\n"
+                        + utils.ensureValidColValue(element.c4Type) + COLUMN_SEPARATOR 
+                        + utils.ensureValidColValue(element.c4Description) + "\n"
     });
   
     try {

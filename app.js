@@ -12,7 +12,7 @@ let outputFilePath = args[4]; //example: "tests/objectAnalysis.csv"
 const options = args[5]; // c4
 
 if(!inputFilePath) {
-  console.log("Missing Arguments: usage: app.js inputFileFormat [json|xml] inputFilePath [outputFilePath] [options]");
+  console.log("Missing Arguments: usage: app.js inputFileFormat:[json|xml] inputFilePath [outputFilePath] options[c4]");
   return;
 }
 if(!outputFilePath) 
