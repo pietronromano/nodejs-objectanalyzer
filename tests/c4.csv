@@ -1,0 +1,437 @@
+Id,Diagram,c4Application,c4Name,c4Description,c4Container,c4Technology,c4Type
+OmnAhu0MO6ce4vZ1q7QM-1,RO-CONTEXT-AsIs,,IBIS,Represents the main system for commercial management in Iberia,,,Software System
+OmnAhu0MO6ce4vZ1q7QM-4,RO-CONTEXT-AsIs,,,Retrieve Order,,JSON/HTTP,Relationship
+V5INRbmKDlhvtNb93LCo-6,RO-CONTEXT-AsIs,,,Retrieve TST,,,Relationship
+V5INRbmKDlhvtNb93LCo-7,RO-CONTEXT-AsIs,,,Retrieve PNR,,JSON/HTTP,Relationship
+V5INRbmKDlhvtNb93LCo-11,RO-CONTEXT-AsIs,,,Retrieve Payment Items,,JSON/HTTP,Relationship
+V5INRbmKDlhvtNb93LCo-15,RO-CONTEXT-AsIs,,,Retrieve Order,,SOAP/HTTP,Relationship
+V5INRbmKDlhvtNb93LCo-16,RO-CONTEXT-AsIs,,,Retrieve Order Full Info,,???,Relationship
+bgC0pTMqRfCt8B1hc532-1,RO-CONTEXT-AsIs,,,NDCGetReservationV3Response,,???,Relationship
+bgC0pTMqRfCt8B1hc532-2,RO-CONTEXT-AsIs,,,ObtenerLastDisruptionDate,,???,Relationship
+Lz1qh7Z4HjJxMaZNY4bn-2,RO-CONTEXT-AsIs,,,Gets the flight status,,JSON/HTTP,Relationship
+Lz1qh7Z4HjJxMaZNY4bn-4,RO-CONTEXT-AsIs,,,Gets Origin Destination (Routing),,JSON/HTTP,Relationship
+Lz1qh7Z4HjJxMaZNY4bn-6,RO-CONTEXT-AsIs,,,Retrieve Flight Info,,JSON/HTTP,Relationship
+Lz1qh7Z4HjJxMaZNY4bn-8,RO-CONTEXT-AsIs,,,GetCurrencies,,???,Relationship
+Lz1qh7Z4HjJxMaZNY4bn-17,RO-CONTEXT-AsIs,,,trm-apim/info/{{flowid}/security RopRule Assets,,JSON/HTTP,Relationship
+Lz1qh7Z4HjJxMaZNY4bn-24,RO-CONTEXT-AsIs,,,RES.svc/ IRES/ AcceptChanges,,???,Relationship
+w9bkBlQmk3Dv7K1rXiYx-1,RO-CONTEXT-AsIs,,,GetAncilliaries,,???,Relationship
+qxtsb-ktKHpWJXnsFTzp-1,RO-CONTEXT-AsIs,,Iberia Customer,Any Iberia Customer,,,Person
+qxtsb-ktKHpWJXnsFTzp-2,RO-CONTEXT-AsIs,,Resiber .NET,Is a .NET WCF service wrapper to call Resiber Core System. It is stateless and macthing one-by-one service with Resiber core services exposition,,,Software System
+qxtsb-ktKHpWJXnsFTzp-5,RO-CONTEXT-AsIs,,,Retrieve Order Info via web/app/api,,JSON/HTTP,Relationship
+qxtsb-ktKHpWJXnsFTzp-6,RO-CONTEXT-AsIs,,,Retrieve Order,,Open TI,Relationship
+qxtsb-ktKHpWJXnsFTzp-11,RO-CONTEXT-AsIs,,NDC MicroS AWS,NDC microservices stack in AWS,,,Software System
+purY8shlXlPd18OZZFNr-1,RO-CONTEXT-AsIs,,,is a record in the database of a computer reservation system (CRS) that contains the itinerary for a passenger or a group of passengers travelling togethercontainer role/responsibility.,PNR,???,PNR
+purY8shlXlPd18OZZFNr-2,RO-CONTEXT-AsIs,,,Retrieve PNR,,,Relationship
+purY8shlXlPd18OZZFNr-3,RO-CONTEXT-AsIs,,,Ticket Display and Additional information TST,Container,???,TST
+purY8shlXlPd18OZZFNr-6,RO-CONTEXT-AsIs,,,Payment Items,Container,???,Payment Items
+purY8shlXlPd18OZZFNr-7,RO-CONTEXT-AsIs,,,Retrieve TST,,JSON/HTTP,Relationship
+purY8shlXlPd18OZZFNr-8,RO-CONTEXT-AsIs,,,Retrieve Payments,,,Relationship
+purY8shlXlPd18OZZFNr-9,RO-CONTEXT-AsIs,,,Flight Info,Container,???,Flight Info
+purY8shlXlPd18OZZFNr-10,RO-CONTEXT-AsIs,,,Retrieve Flight Info,,JSON/HTTP,Relationship
+purY8shlXlPd18OZZFNr-11,RO-CONTEXT-AsIs,,ASS-FASS,Acilliaries System,,,Software System
+purY8shlXlPd18OZZFNr-12,RO-CONTEXT-AsIs,,WCS,Web Center Sites (ORacle) is a CMS which contains rules and other Master Data info required in the process,,,Software System
+purY8shlXlPd18OZZFNr-14,RO-CONTEXT-AsIs,,SSE-FAVL,Contains Flight Info,,,Software System
+purY8shlXlPd18OZZFNr-15,RO-CONTEXT-AsIs,,DataLake,TBC IDBP,,,Software System
+JRphnQhHPR2YnF_AixmV-3,RO-CONTEXT-AsIs,,Resiber,Core PSS System,,,Software System
+JRphnQhHPR2YnF_AixmV-6,RO-CONTEXT-AsIs,,DBM ROP,Replace WCS from rules perspective,,,Software System
+JRphnQhHPR2YnF_AixmV-7,RO-CONTEXT-AsIs,Business Rules System (BRS),DRMS,,,,SystemScopeBoundary
+JRphnQhHPR2YnF_AixmV-8,RO-CONTEXT-AsIs,,Ancilliaries,,,,SystemScopeBoundary
+JRphnQhHPR2YnF_AixmV-10,RO-CONTEXT-AsIs,Software System,DIGITAL,,,,SystemScopeBoundary
+JRphnQhHPR2YnF_AixmV-11,RO-CONTEXT-AsIs,Software System,NDC,,,,SystemScopeBoundary
+JRphnQhHPR2YnF_AixmV-12,RO-CONTEXT-AsIs,Core System,PSS,,,,SystemScopeBoundary
+26djmhP9If4syrEhWDEB-1,RO-CONTEXT-AsIs,,,Accept Changes,,JSON/HTTP,Relationship
+G2NyRFYaecw1ghZUigo0-24,RO-Context-ToBe,,,Retrieve Order View (OrderId| ViewId) Header(Channel Web),,JSON/HTTP,Relationship
+G2NyRFYaecw1ghZUigo0-25,RO-Context-ToBe,,Iberia B2C,Iberia B2C,,,Person
+G2NyRFYaecw1ghZUigo0-26,RO-Context-ToBe,,,Retrieve Order Info via web,,JSON/HTTP,Relationship
+G2NyRFYaecw1ghZUigo0-50,RO-Context-ToBe,,,Description of web browser container role/responsibility.,Container,e.g. JavaScript| Angular etc.,Apps
+G2NyRFYaecw1ghZUigo0-51,RO-Context-ToBe,,NDC,Description of external software system.,,,Software System
+G2NyRFYaecw1ghZUigo0-52,RO-Context-ToBe,,,Retrieve Order View (OrderId| ViewId) Header(Channel Apps),,JSON/HTTP,Relationship
+G2NyRFYaecw1ghZUigo0-53,RO-Context-ToBe,,,Retrieve Order View (OrderId| ViewId) Header(Channel B2B),,JSON/HTTP,Relationship
+G2NyRFYaecw1ghZUigo0-54,RO-Context-ToBe,,,Retrieve Order Info via app,,JSON/HTTP,Relationship
+G2NyRFYaecw1ghZUigo0-55,RO-Context-ToBe,,,Retrieve Order Info via api,,JSON/HTTP,Relationship
+G2NyRFYaecw1ghZUigo0-57,RO-Context-ToBe,,,Info Updates,,websocket,Relationship
+G2NyRFYaecw1ghZUigo0-58,RO-Context-ToBe,,,Info Updates,,websocket,Relationship
+G2NyRFYaecw1ghZUigo0-61,RO-Context-ToBe,,Routing System,Description of external software system.,,,Software System
+G2NyRFYaecw1ghZUigo0-62,RO-Context-ToBe,,Ancilliaries System,Description of external software system.,,,Software System
+G2NyRFYaecw1ghZUigo0-63,RO-Context-ToBe,,Flight system,Description of external software system.,,,Software System
+G2NyRFYaecw1ghZUigo0-64,RO-Context-ToBe,,External system name,Description of external software system.,,,Software System
+G2NyRFYaecw1ghZUigo0-65,RO-Context-ToBe,,External system name,Description of external software system.,,,Software System
+G2NyRFYaecw1ghZUigo0-66,RO-Context-ToBe,,Catalogue Systems,Description of external software system.,,,Software System
+G2NyRFYaecw1ghZUigo0-73,RO-Context-ToBe,,PNR system,Description of external software system.,,,Software System
+G2NyRFYaecw1ghZUigo0-74,RO-Context-ToBe,,Payment system,Description of external software system.,,,Software System
+G2NyRFYaecw1ghZUigo0-75,RO-Context-ToBe,,TST system,Description of external software system.,,,Software System
+G2NyRFYaecw1ghZUigo0-76,RO-Context-ToBe,,Locators system,Description of external software system.,,,Software System
+G2NyRFYaecw1ghZUigo0-77,RO-Context-ToBe,,Disruptions system,Description of external software system.,,,Software System
+G2NyRFYaecw1ghZUigo0-78,RO-Context-ToBe,,OneOrder system,Description of external software system.,,,Software System
+G2NyRFYaecw1ghZUigo0-79,RO-Context-ToBe,,Passenger system,Description of external software system.,,,Software System
+G2NyRFYaecw1ghZUigo0-93,RO-Context-ToBe,,,Description of web browser container role/responsibility.,Container,e.g. JavaScript| Angular etc.,Web
+G2NyRFYaecw1ghZUigo0-127,RO-Context-ToBe,,Iberia B2B,Description of external person.,,,Person
+G2NyRFYaecw1ghZUigo0-128,RO-Context-ToBe,,,Send Data Changes,,,Relationship
+FBoGJbuWiffMoIYB4Jas-0,RO-Context-ToBe,,,Send Data Changes,,,Relationship
+upvmD3NNSrLFoBB0YnVz-0,RO-Context-ToBe,,Iberia Call Center,Description of external person.,,,Person
+upvmD3NNSrLFoBB0YnVz-2,RO-Context-ToBe,,,Retrieve Order Info via api,,JSON/HTTP,Relationship
+upvmD3NNSrLFoBB0YnVz-3,RO-Context-ToBe,,,Call,,,Relationship
+OWM45mKTwrq41VuY4n5O-0,RO-Context-ToBe,,Anticorruption Layer,Description of software system.,,,Software System
+qutygBh3xDgUeeEHFX3t-0,RO-Context-ToBe,,Web View Management,Description of software system.,,,Software System
+qutygBh3xDgUeeEHFX3t-1,RO-Context-ToBe,,Apps View Management,Description of software system.,,,Software System
+qutygBh3xDgUeeEHFX3t-2,RO-Context-ToBe,,NDC View Management,Description of software system.,,,Software System
+yOkwUPOgPANpzX2ScDa1-0,RO-Context-ToBe,,Retrieve Order Management,Description of software system.,,,Software System
+qutygBh3xDgUeeEHFX3t-4,RO-Context-ToBe,,,Send Data Changes,,,Relationship
+qutygBh3xDgUeeEHFX3t-5,RO-Context-ToBe,,,Send Data Changes,,,Relationship
+qutygBh3xDgUeeEHFX3t-6,RO-Context-ToBe,,,Send Data Changes,,,Relationship
+Uil5llXtx4Rlz2prfU1d-39,RO-Container View,AWS NDC,View Management,,,,SystemScopeBoundary
+FO3vzkfxp2fmt0KCgTeL-16,RO-Container View,,,Retrieve Order View (OrderId| ViewId) Header(Channel Web),,JSON/HTTP,Relationship
+FO3vzkfxp2fmt0KCgTeL-32,RO-Container View,,Iberia B2C,Iberia B2C,,,Person
+FO3vzkfxp2fmt0KCgTeL-34,RO-Container View,,,Retrieve Order Info via web,,JSON/HTTP,Relationship
+W1LjxuL6KklG65J2Gl0E-8,RO-Container View,,RO Routing Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+W1LjxuL6KklG65J2Gl0E-10,RO-Container View,,,Structured Retrieve Order Data,Container,Aurora or RDS,Retrieve Order DB
+W1LjxuL6KklG65J2Gl0E-12,RO-Container View,,RO Flight Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+W1LjxuL6KklG65J2Gl0E-13,RO-Container View,,RO Catalogue Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+W1LjxuL6KklG65J2Gl0E-14,RO-Container View,,,Description of message bus type container role/responsibility.,Container,SQS,RO Passengers
+W1LjxuL6KklG65J2Gl0E-15,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+W1LjxuL6KklG65J2Gl0E-16,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+W1LjxuL6KklG65J2Gl0E-17,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+W1LjxuL6KklG65J2Gl0E-9,RO-Container View,,RO Ancilliaries Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+W1LjxuL6KklG65J2Gl0E-23,RO-Container View,,RO PNR Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+W1LjxuL6KklG65J2Gl0E-24,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,RO ANCILLARIES
+W1LjxuL6KklG65J2Gl0E-25,RO-Container View,,RO Payment Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+W1LjxuL6KklG65J2Gl0E-26,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+W1LjxuL6KklG65J2Gl0E-27,RO-Container View,,RO Ticket Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+W1LjxuL6KklG65J2Gl0E-28,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+W1LjxuL6KklG65J2Gl0E-29,RO-Container View,,RO Disruption Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+W1LjxuL6KklG65J2Gl0E-30,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+W1LjxuL6KklG65J2Gl0E-31,RO-Container View,,RO Disruption Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+W1LjxuL6KklG65J2Gl0E-32,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+W1LjxuL6KklG65J2Gl0E-33,RO-Container View,,RO OneOrder Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+W1LjxuL6KklG65J2Gl0E-34,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+W1LjxuL6KklG65J2Gl0E-40,RO-Container View,,,Description of web browser container role/responsibility.,Container,e.g. JavaScript| Angular etc.,Apps
+W1LjxuL6KklG65J2Gl0E-41,RO-Container View,,NDC,Description of external software system.,,,Software System
+W1LjxuL6KklG65J2Gl0E-42,RO-Container View,,,Retrieve Order View (OrderId| ViewId) Header(Channel Apps),,JSON/HTTP,Relationship
+W1LjxuL6KklG65J2Gl0E-43,RO-Container View,,,Retrieve Order View (OrderId| ViewId) Header(Channel B2B),,JSON/HTTP,Relationship
+W1LjxuL6KklG65J2Gl0E-44,RO-Container View,,,Retrieve Order Info via app,,JSON/HTTP,Relationship
+W1LjxuL6KklG65J2Gl0E-51,RO-Container View,,,Retrieve Order Info via api,,JSON/HTTP,Relationship
+W1LjxuL6KklG65J2Gl0E-55,RO-Container View,,,Info Updates,,websocket,Relationship
+W1LjxuL6KklG65J2Gl0E-71,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,RO Data Updates
+W1LjxuL6KklG65J2Gl0E-84,RO-Container View,,Routing System,Description of external software system.,,,Software System
+W1LjxuL6KklG65J2Gl0E-85,RO-Container View,,Ancilliaries System,Description of external software system.,,,Software System
+W1LjxuL6KklG65J2Gl0E-86,RO-Container View,,Flight system,Description of external software system.,,,Software System
+W1LjxuL6KklG65J2Gl0E-87,RO-Container View,,External system name,Description of external software system.,,,Software System
+W1LjxuL6KklG65J2Gl0E-88,RO-Container View,,External system name,Description of external software system.,,,Software System
+W1LjxuL6KklG65J2Gl0E-89,RO-Container View,,Catalogue Systems,Description of external software system.,,,Software System
+W1LjxuL6KklG65J2Gl0E-109,RO-Container View,,RO Passengers Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+W1LjxuL6KklG65J2Gl0E-111,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+W1LjxuL6KklG65J2Gl0E-115,RO-Container View,,PNR system,Description of external software system.,,,Software System
+W1LjxuL6KklG65J2Gl0E-116,RO-Container View,,Payment system,Description of external software system.,,,Software System
+W1LjxuL6KklG65J2Gl0E-117,RO-Container View,,TST system,Description of external software system.,,,Software System
+W1LjxuL6KklG65J2Gl0E-118,RO-Container View,,Locators system,Description of external software system.,,,Software System
+W1LjxuL6KklG65J2Gl0E-119,RO-Container View,,Disruptions system,Description of external software system.,,,Software System
+W1LjxuL6KklG65J2Gl0E-120,RO-Container View,,Order system,Description of external software system.,,,Software System
+W1LjxuL6KklG65J2Gl0E-121,RO-Container View,,Passenger system,Description of external software system.,,,Software System
+Q-yr2D3xmJzd_hBRmeq9-3,RO-Container View,,,Publish RO Data Event,,,Relationship
+W1LjxuL6KklG65J2Gl0E-2,RO-Container View,,,Description of web browser container role/responsibility.,Container,e.g. JavaScript| Angular etc.,Web
+Q-yr2D3xmJzd_hBRmeq9-17,RO-Container View,,,Write Data Changes,,,Relationship
+Q-yr2D3xmJzd_hBRmeq9-24,RO-Container View,,,Description of message bus type container role/responsibility.,Container,SQS,Passenger Queue
+Q-yr2D3xmJzd_hBRmeq9-26,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+Q-yr2D3xmJzd_hBRmeq9-30,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+Q-yr2D3xmJzd_hBRmeq9-32,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+Q-yr2D3xmJzd_hBRmeq9-34,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+Q-yr2D3xmJzd_hBRmeq9-36,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+Q-yr2D3xmJzd_hBRmeq9-38,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+Q-yr2D3xmJzd_hBRmeq9-40,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+Q-yr2D3xmJzd_hBRmeq9-42,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+Q-yr2D3xmJzd_hBRmeq9-47,RO-Container View,,,Send Data,,,Relationship
+Q-yr2D3xmJzd_hBRmeq9-54,RO-Container View,,,Publish Data Changes,,,Relationship
+Q-yr2D3xmJzd_hBRmeq9-55,RO-Container View,,,Publish Data Changes,,,Relationship
+Q-yr2D3xmJzd_hBRmeq9-56,RO-Container View,,,Publish Data Changes,,,Relationship
+HVTrckzJIln7IpXbOXpF-0,RO-Container View,,Iberia B2B,Description of external person.,,,Person
+NnnQcoSlMQ3pQq8_351X-0,RO-Container View,,,Publish Data Changes,,,Relationship
+NnnQcoSlMQ3pQq8_351X-1,RO-Container View,,,Publish Data Changes,,,Relationship
+NnnQcoSlMQ3pQq8_351X-2,RO-Container View,,,Publish Data Changes,,,Relationship
+NnnQcoSlMQ3pQq8_351X-3,RO-Container View,,,Publish Data Changes,,,Relationship
+NnnQcoSlMQ3pQq8_351X-4,RO-Container View,,,Publish Data Changes,,,Relationship
+NnnQcoSlMQ3pQq8_351X-5,RO-Container View,,,Publish Data Changes,,,Relationship
+NnnQcoSlMQ3pQq8_351X-6,RO-Container View,,,Publish Data Changes,,,Relationship
+NnnQcoSlMQ3pQq8_351X-7,RO-Container View,,,Publish Data Changes,,,Relationship
+W1LjxuL6KklG65J2Gl0E-97,RO-Container View,,,Send data changes,,,Relationship
+dC6gCA6k5vU54Op39m6--5,RO-Container View,,,Upsert Data Views,,,Relationship
+560cc0qIRWCev2jPFnC1-5,RO-Container View,,,Get Data View,,,Relationship
+rHSVFvFJQqH5nsPg9qkJ-0,RO-Container View,,RO Publisher,Description of container role/responsibility.,,e.g. SpringBoot| ElasticSearch| etc.,Container
+rHSVFvFJQqH5nsPg9qkJ-1,RO-Container View,,,Read RO View Outbox,,,Relationship
+rHSVFvFJQqH5nsPg9qkJ-2,RO-Container View,,,Publish RO View Event,,,Relationship
+_qyvdPkwaTQ9Uhb6tw-t-0,RO-Container View,,Passengers Publisher,Description of container role/responsibility.,,AWS Lambda,Container
+_qyvdPkwaTQ9Uhb6tw-t-1,RO-Container View,Software System,System name,,,,SystemScopeBoundary
+_qyvdPkwaTQ9Uhb6tw-t-3,RO-Container View,,Order Publisher,Description of container role/responsibility.,,AWS Lambda,Container
+_qyvdPkwaTQ9Uhb6tw-t-4,RO-Container View,,,Description of message bus type container role/responsibility.,Container,SQS,Order Queue
+_qyvdPkwaTQ9Uhb6tw-t-7,RO-Container View,Software System,System name,,,,SystemScopeBoundary
+_qyvdPkwaTQ9Uhb6tw-t-11,RO-Container View,,Locators Publisher,Description of container role/responsibility.,,AWS Lambda,Container
+_qyvdPkwaTQ9Uhb6tw-t-12,RO-Container View,,,Description of message bus type container role/responsibility.,Container,SQS,Locators Queue
+_qyvdPkwaTQ9Uhb6tw-t-13,RO-Container View,Software System,System name,,,,SystemScopeBoundary
+Uil5llXtx4Rlz2prfU1d-0,RO-Container View,,RO Error Processor,Description of container role/responsibility.,,e.g. SpringBoot| ElasticSearch| etc.,Container
+Uil5llXtx4Rlz2prfU1d-1,RO-Container View,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,RO Error Queue
+Uil5llXtx4Rlz2prfU1d-2,RO-Container View,,,Publish Error,,,Relationship
+Uil5llXtx4Rlz2prfU1d-3,RO-Container View,,,Read Error Event,,,Relationship
+Uil5llXtx4Rlz2prfU1d-4,RO-Container View,,,Write Data,,,Relationship
+Uil5llXtx4Rlz2prfU1d-6,RO-Container View,,Web Front Sync,Description of container role/responsibility.,,AWS AppSync WebSocket,Container
+Uil5llXtx4Rlz2prfU1d-7,RO-Container View,,Web View Builder,Description of container role/responsibility.,,AWS Lambda,Container
+Uil5llXtx4Rlz2prfU1d-8,RO-Container View,,,Key-Value structure| Key= OrderId+UserId+ChannelId+ViewId ,Container,DynamoDB|S3,Web Views
+Uil5llXtx4Rlz2prfU1d-9,RO-Container View,,,Description of message bus type container role/responsibility.,Container,SQS,Web View Queue
+Uil5llXtx4Rlz2prfU1d-10,RO-Container View,,Web View Publisher,Description of container role/responsibility.,,AWs Lambda,Container
+Uil5llXtx4Rlz2prfU1d-11,RO-Container View,AWS Digital,View Management,,,,SystemScopeBoundary
+Uil5llXtx4Rlz2prfU1d-12,RO-Container View,,Web API,Description of container role/responsibility.,,e.g. SpringBoot| ElasticSearch| etc.,Container
+Uil5llXtx4Rlz2prfU1d-14,RO-Container View,,,Read RO Web View Outbox,,,Relationship
+Uil5llXtx4Rlz2prfU1d-15,RO-Container View,AWS Digital,Retrieve Order Management,,,,SystemScopeBoundary
+Uil5llXtx4Rlz2prfU1d-17,RO-Container View,,,Send data changes,,,Relationship
+Uil5llXtx4Rlz2prfU1d-18,RO-Container View,,,Upsert Data Views,,,Relationship
+Uil5llXtx4Rlz2prfU1d-19,RO-Container View,,,Get Data View,,,Relationship
+Uil5llXtx4Rlz2prfU1d-20,RO-Container View,,Apps Front Sync,Description of container role/responsibility.,,AWS AppSync WebSocket,Container
+Uil5llXtx4Rlz2prfU1d-21,RO-Container View,,Apps View Builder,Description of container role/responsibility.,,AWs Lambda,Container
+Uil5llXtx4Rlz2prfU1d-22,RO-Container View,,,Key-Value structure| Key= OrderId+UserId+ChannelId+ViewId ,Container,DynamoDB|S3,Apps Views
+Uil5llXtx4Rlz2prfU1d-23,RO-Container View,,,Description of message bus type container role/responsibility.,Container,SQS,Apps  View Queue
+Uil5llXtx4Rlz2prfU1d-24,RO-Container View,,Apps View Publisher,Description of container role/responsibility.,,AWs Lambda,Container
+Uil5llXtx4Rlz2prfU1d-25,RO-Container View,AWS Apps,View Management,,,,SystemScopeBoundary
+Uil5llXtx4Rlz2prfU1d-26,RO-Container View,,Apps API,Description of container role/responsibility.,,e.g. SpringBoot| ElasticSearch| etc.,Container
+Uil5llXtx4Rlz2prfU1d-27,RO-Container View,,,Read RO Web View Outbox,,,Relationship
+Uil5llXtx4Rlz2prfU1d-29,RO-Container View,,,Info Updates,,websocket,Relationship
+Uil5llXtx4Rlz2prfU1d-32,RO-Container View,,,Upsert Data Views,,,Relationship
+Uil5llXtx4Rlz2prfU1d-33,RO-Container View,,,Get Data View,,,Relationship
+Uil5llXtx4Rlz2prfU1d-35,RO-Container View,,NDC View Builder,Description of container role/responsibility.,,AWs Lambda,Container
+Uil5llXtx4Rlz2prfU1d-36,RO-Container View,,,Key-Value structure| Key= OrderId+UserId+ChannelId+ViewId ,Container,DynamoDB|S3,NDC Views
+Uil5llXtx4Rlz2prfU1d-37,RO-Container View,,,Description of message bus type container role/responsibility.,Container,SQS,NDC  View Queue
+Uil5llXtx4Rlz2prfU1d-40,RO-Container View,,NDC API,Description of container role/responsibility.,,e.g. SpringBoot| ElasticSearch| etc.,Container
+Uil5llXtx4Rlz2prfU1d-46,RO-Container View,,,Read Data Event,,,Relationship
+Uil5llXtx4Rlz2prfU1d-47,RO-Container View,,,Read Data Event,,,Relationship
+Uil5llXtx4Rlz2prfU1d-48,RO-Container View,,,Read Data Event,,,Relationship
+Uil5llXtx4Rlz2prfU1d-49,RO-Container View,,,Publish RO Data Event,,,Relationship
+Uil5llXtx4Rlz2prfU1d-50,RO-Container View,,,Publish RO Data Event,,,Relationship
+Uil5llXtx4Rlz2prfU1d-55,RO-Container View,,Routing Publisher,Description of container role/responsibility.,,AWS Lambda,Container
+Uil5llXtx4Rlz2prfU1d-58,RO-Container View,,Ancillaries Publisher,Description of container role/responsibility.,,AWS Lambda,Container
+Uil5llXtx4Rlz2prfU1d-61,RO-Container View,,Flight Publisher,Description of container role/responsibility.,,AWS Lambda,Container
+Uil5llXtx4Rlz2prfU1d-63,RO-Container View,,Catalogue Publisher,Description of container role/responsibility.,,AWS Lambda,Container
+Uil5llXtx4Rlz2prfU1d-64,RO-Container View,,PNR Publisher,Description of container role/responsibility.,,AWS Lambda,Container
+Uil5llXtx4Rlz2prfU1d-65,RO-Container View,,Payment Publisher,Description of container role/responsibility.,,AWS Lambda,Container
+Uil5llXtx4Rlz2prfU1d-67,RO-Container View,,Ticket Publisher,Description of container role/responsibility.,,AWS Lambda,Container
+Uil5llXtx4Rlz2prfU1d-68,RO-Container View,,Disruption Publisher,Description of container role/responsibility.,,AWS Lambda,Container
+r1sq0Z12rChlIew7i6SO-2,RO-Container View,,,Description of microservice type container role/responsibility.,Container,e.g. Micronaut| etc.,ANCILLARIES
+r1sq0Z12rChlIew7i6SO-3,RO-Container View,,,e.g. Visits pages,,,Relationship
+r1sq0Z12rChlIew7i6SO-4,RO-Container View,,,e.g. Visits pages,,,Relationship
+r1sq0Z12rChlIew7i6SO-7,RO-Container View,,,e.g. Visits pages,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-5,BKP of RO-Design-ToBe,,RO Apps Reader API,Description of component role/responsibility.,,AWS Lambda,Component
+N-UGQkhJkFJ783xu3_Gl-7,BKP of RO-Design-ToBe,,RO Apps View Builder,Creates/Updates views based on Channel requirements,,AWS Lambda,Component
+N-UGQkhJkFJ783xu3_Gl-11,BKP of RO-Design-ToBe,Software System,Anticorruption Layer,,,,SystemScopeBoundary
+N-UGQkhJkFJ783xu3_Gl-27,BKP of RO-Design-ToBe,,,Retrieve Order View (OrderId| ViewId) Header(Channel Web),,JSON/HTTP,Relationship
+N-UGQkhJkFJ783xu3_Gl-28,BKP of RO-Design-ToBe,,Iberia B2C,Iberia B2C,,,Person
+N-UGQkhJkFJ783xu3_Gl-29,BKP of RO-Design-ToBe,,,Retrieve Order Info via web,,JSON/HTTP,Relationship
+N-UGQkhJkFJ783xu3_Gl-30,BKP of RO-Design-ToBe,,RO Routing Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-31,BKP of RO-Design-ToBe,,,Structured Retrieve Order Data,Container,Aurora or RDS,Retrieve Order DB
+N-UGQkhJkFJ783xu3_Gl-32,BKP of RO-Design-ToBe,,RO Flight Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-33,BKP of RO-Design-ToBe,,RO Catalogue Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-34,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-35,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-36,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-37,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-38,BKP of RO-Design-ToBe,,RO Ancilliaries Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-39,BKP of RO-Design-ToBe,,RO PNR Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-40,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-41,BKP of RO-Design-ToBe,,RO Payment Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-42,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-43,BKP of RO-Design-ToBe,,RO Ticket Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-44,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-45,BKP of RO-Design-ToBe,,RO Disruption Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-46,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-47,BKP of RO-Design-ToBe,,RO Disruption Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-48,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-49,BKP of RO-Design-ToBe,,RO OneOrder Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-50,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-51,BKP of RO-Design-ToBe,,,Description of web browser container role/responsibility.,Container,e.g. JavaScript| Angular etc.,Apps
+N-UGQkhJkFJ783xu3_Gl-52,BKP of RO-Design-ToBe,,NDC,Description of external software system.,,,Software System
+N-UGQkhJkFJ783xu3_Gl-53,BKP of RO-Design-ToBe,,,Retrieve Order View (OrderId| ViewId) Header(Channel Apps),,JSON/HTTP,Relationship
+N-UGQkhJkFJ783xu3_Gl-54,BKP of RO-Design-ToBe,,,Retrieve Order View (OrderId| ViewId) Header(Channel B2B),,JSON/HTTP,Relationship
+N-UGQkhJkFJ783xu3_Gl-55,BKP of RO-Design-ToBe,,,Retrieve Order Info via app,,JSON/HTTP,Relationship
+N-UGQkhJkFJ783xu3_Gl-56,BKP of RO-Design-ToBe,,,Retrieve Order Info via api,,JSON/HTTP,Relationship
+N-UGQkhJkFJ783xu3_Gl-57,BKP of RO-Design-ToBe,,Front Sync,Description of component role/responsibility.,,AWS AppSync WebSocket,Component
+N-UGQkhJkFJ783xu3_Gl-58,BKP of RO-Design-ToBe,,,Info Updates,,websocket,Relationship
+N-UGQkhJkFJ783xu3_Gl-59,BKP of RO-Design-ToBe,,,Info Updates,,websocket,Relationship
+N-UGQkhJkFJ783xu3_Gl-60,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,RO Data Updates
+N-UGQkhJkFJ783xu3_Gl-61,BKP of RO-Design-ToBe,,,Key-Value structure| Key= OrderId+UserId+ChannelId+ViewId ,Container,DynamoDB|S3,RO NDC Views
+N-UGQkhJkFJ783xu3_Gl-62,BKP of RO-Design-ToBe,,Routing System,Description of external software system.,,,Software System
+N-UGQkhJkFJ783xu3_Gl-63,BKP of RO-Design-ToBe,,Ancilliaries System,Description of external software system.,,,Software System
+N-UGQkhJkFJ783xu3_Gl-64,BKP of RO-Design-ToBe,,Flight system,Description of external software system.,,,Software System
+N-UGQkhJkFJ783xu3_Gl-65,BKP of RO-Design-ToBe,,External system name,Description of external software system.,,,Software System
+N-UGQkhJkFJ783xu3_Gl-66,BKP of RO-Design-ToBe,,External system name,Description of external software system.,,,Software System
+N-UGQkhJkFJ783xu3_Gl-67,BKP of RO-Design-ToBe,,Catalogue Systems,Description of external software system.,,,Software System
+N-UGQkhJkFJ783xu3_Gl-68,BKP of RO-Design-ToBe,,,Read Additional Data (Optional),,,Relationship
+N-UGQkhJkFJ783xu3_Gl-69,BKP of RO-Design-ToBe,Software System,Retrieve Order Management,,,,SystemScopeBoundary
+N-UGQkhJkFJ783xu3_Gl-70,BKP of RO-Design-ToBe,,RO Passengers Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-71,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-72,BKP of RO-Design-ToBe,,PNR system,Description of external software system.,,,Software System
+N-UGQkhJkFJ783xu3_Gl-73,BKP of RO-Design-ToBe,,Payment system,Description of external software system.,,,Software System
+N-UGQkhJkFJ783xu3_Gl-74,BKP of RO-Design-ToBe,,TST system,Description of external software system.,,,Software System
+N-UGQkhJkFJ783xu3_Gl-75,BKP of RO-Design-ToBe,,Locators system,Description of external software system.,,,Software System
+N-UGQkhJkFJ783xu3_Gl-76,BKP of RO-Design-ToBe,,Disruptions system,Description of external software system.,,,Software System
+N-UGQkhJkFJ783xu3_Gl-77,BKP of RO-Design-ToBe,,OneOrder system,Description of external software system.,,,Software System
+N-UGQkhJkFJ783xu3_Gl-78,BKP of RO-Design-ToBe,,Passenger system,Description of external software system.,,,Software System
+N-UGQkhJkFJ783xu3_Gl-84,BKP of RO-Design-ToBe,,,Get Data View,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-87,BKP of RO-Design-ToBe,,,Read Data Event,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-88,BKP of RO-Design-ToBe,,RO Web View Builder,Creates/Updates views based on Channel requirements,,AWS Lambda,Component
+N-UGQkhJkFJ783xu3_Gl-89,BKP of RO-Design-ToBe,,RO B2B View Builder,Creates/Updates views based on Channel requirements,,AWS Lambda,Component
+N-UGQkhJkFJ783xu3_Gl-90,BKP of RO-Design-ToBe,,,Description of web browser container role/responsibility.,Container,e.g. JavaScript| Angular etc.,Web
+N-UGQkhJkFJ783xu3_Gl-91,BKP of RO-Design-ToBe,,,Write Data Changes,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-92,BKP of RO-Design-ToBe,,RO Routing Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-93,BKP of RO-Design-ToBe,,RO Flight Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-94,BKP of RO-Design-ToBe,,RO Catalogue Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-95,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-96,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-97,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-98,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-99,BKP of RO-Design-ToBe,,RO Ancilliaries Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-100,BKP of RO-Design-ToBe,,RO PNR Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-101,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-102,BKP of RO-Design-ToBe,,RO Payment Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-103,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-104,BKP of RO-Design-ToBe,,RO Ticket Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-105,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-106,BKP of RO-Design-ToBe,,RO Disruption Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-107,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-108,BKP of RO-Design-ToBe,,RO Locators Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-109,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-110,BKP of RO-Design-ToBe,,RO OneOrder Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-111,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-112,BKP of RO-Design-ToBe,,RO Passengers Writer,Description of component role/responsibility.,,e.g. Spring Service,Component
+N-UGQkhJkFJ783xu3_Gl-113,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,Container name
+N-UGQkhJkFJ783xu3_Gl-114,BKP of RO-Design-ToBe,,,Send Data,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-119,BKP of RO-Design-ToBe,,,Send Data Changes,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-120,BKP of RO-Design-ToBe,,,Send Data Changes,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-121,BKP of RO-Design-ToBe,,,Send Data Changes,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-122,BKP of RO-Design-ToBe,,Iberia B2B,Description of external person.,,,Person
+N-UGQkhJkFJ783xu3_Gl-123,BKP of RO-Design-ToBe,,,Send Data Changes,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-124,BKP of RO-Design-ToBe,,,Send Data Changes,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-125,BKP of RO-Design-ToBe,,,Send Data Changes,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-126,BKP of RO-Design-ToBe,,,Send Data Changes,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-127,BKP of RO-Design-ToBe,,,Send Data Changes,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-128,BKP of RO-Design-ToBe,,,Send Data Changes,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-129,BKP of RO-Design-ToBe,,,Send Data Changes,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-130,BKP of RO-Design-ToBe,,,Send Data Changes,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-139,BKP of RO-Design-ToBe,,RO View Regenerator API,Description of component role/responsibility.,,AWS Lambda,Component
+N-UGQkhJkFJ783xu3_Gl-140,BKP of RO-Design-ToBe,,,Send New Regeneration,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-142,BKP of RO-Design-ToBe,,Iberia App. Support,Description of person.,,,Person
+N-UGQkhJkFJ783xu3_Gl-143,BKP of RO-Design-ToBe,,,Request Views Regeneration,,e.g. JSON/HTTP,Relationship
+N-UGQkhJkFJ783xu3_Gl-146,BKP of RO-Design-ToBe,,RO View Regenerator API,Description of component role/responsibility.,,AWS Lambda,Component
+N-UGQkhJkFJ783xu3_Gl-147,BKP of RO-Design-ToBe,,,Description of message bus type container role/responsibility.,Container,e.g. Apache Kafka| etc.,RO Data Updates
+N-UGQkhJkFJ783xu3_Gl-148,BKP of RO-Design-ToBe,,,Read New Regeneration,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-149,BKP of RO-Design-ToBe,,,Get Order Ids,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-150,BKP of RO-Design-ToBe,,,Description of web browser container role/responsibility.,Container,e.g. JavaScript| Angular etc.,Postman
+N-UGQkhJkFJ783xu3_Gl-151,BKP of RO-Design-ToBe,,,Request Views Regeneration,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-156,BKP of RO-Design-ToBe,,,Key-Value structure| Key= OrderId+UserId+ChannelId+ViewId ,Container,DynamoDB|S3,RO Apps Views
+N-UGQkhJkFJ783xu3_Gl-157,BKP of RO-Design-ToBe,,,Key-Value structure| Key= OrderId+UserId+ChannelId+ViewId ,Container,DynamoDB|S3,RO Web Views
+N-UGQkhJkFJ783xu3_Gl-158,BKP of RO-Design-ToBe,,,Send data changes,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-159,BKP of RO-Design-ToBe,,,Upsert Data Views,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-160,BKP of RO-Design-ToBe,,,Upsert Data Views,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-161,BKP of RO-Design-ToBe,,,Upsert Data Views,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-162,BKP of RO-Design-ToBe,,RO NDC Reader API,Description of component role/responsibility.,,AWS Lambda,Component
+N-UGQkhJkFJ783xu3_Gl-163,BKP of RO-Design-ToBe,,RO Reader Web API,Description of component role/responsibility.,,AWS Lambda,Component
+N-UGQkhJkFJ783xu3_Gl-164,BKP of RO-Design-ToBe,,,Get Data View,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-165,BKP of RO-Design-ToBe,,,Get Data View,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-166,BKP of RO-Design-ToBe,,RO View Publisher,Description of container role/responsibility.,,e.g. SpringBoot| ElasticSearch| etc.,Container
+N-UGQkhJkFJ783xu3_Gl-167,BKP of RO-Design-ToBe,,,Read RO View Outbox,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-168,BKP of RO-Design-ToBe,,,Publish RO View Event,,,Relationship
+N-UGQkhJkFJ783xu3_Gl-169,BKP of RO-Design-ToBe,Container,RO Web AWS Lambda,,,,ContainerScopeBoundary
+Nb4_3eX5eft5Nwirc-cc-15,BKP RO-CONTEXT,,IBIS,Represents the main system for commercial management in Iberia,,,Software System
+Nb4_3eX5eft5Nwirc-cc-16,BKP RO-CONTEXT,,,Retrieve Order,,JSON/HTTP,Relationship
+Nb4_3eX5eft5Nwirc-cc-18,BKP RO-CONTEXT,,AWS Retrieve Order,Retrieves Order Information,,AWS Lambda,Component
+Nb4_3eX5eft5Nwirc-cc-19,BKP RO-CONTEXT,,AWS Retrieve PNR,Retrieves NR Information,,AWS Lambda,Component
+Nb4_3eX5eft5Nwirc-cc-20,BKP RO-CONTEXT,,AWS Ticket Display TST,Retrieves Ticket Display TST Information,,AWS Lambda,Component
+Nb4_3eX5eft5Nwirc-cc-21,BKP RO-CONTEXT,,,Retrieve TST,,JSON/HTTP,Relationship
+Nb4_3eX5eft5Nwirc-cc-22,BKP RO-CONTEXT,,,Retrieve PNR,,JSON/HTTP,Relationship
+Nb4_3eX5eft5Nwirc-cc-23,BKP RO-CONTEXT,,AWS Ticket Process EDoc,Retrieves Ticket Additional Information,,AWS Lambda,Component
+Nb4_3eX5eft5Nwirc-cc-24,BKP RO-CONTEXT,,,Retrieve TST,,JSON/HTTP,Relationship
+Nb4_3eX5eft5Nwirc-cc-25,BKP RO-CONTEXT,,AWS FOPReadFromOfPaymentData,Retrieves Payment Items,,AWS Lambda,Component
+Nb4_3eX5eft5Nwirc-cc-26,BKP RO-CONTEXT,,,Retrieve Payment Items,,JSON/HTTP,Relationship
+Nb4_3eX5eft5Nwirc-cc-27,BKP RO-CONTEXT,,Resiber,Resiber,,,Software System
+Nb4_3eX5eft5Nwirc-cc-28,BKP RO-CONTEXT,,RecoverOrderServiceImp,Recover Order Full Information,,???,Component
+Nb4_3eX5eft5Nwirc-cc-29,BKP RO-CONTEXT,,,Retrieve Order,,SOAP/HTTP,Relationship
+Nb4_3eX5eft5Nwirc-cc-30,BKP RO-CONTEXT,,,Retrieve Order Full Info,,???,Relationship
+Nb4_3eX5eft5Nwirc-cc-31,BKP RO-CONTEXT,,,Retrieve Order Full Info,,???,Relationship
+Nb4_3eX5eft5Nwirc-cc-32,BKP RO-CONTEXT,,WCS,WCS is the legacy CMS which is been called to get some info,,,Software System
+Nb4_3eX5eft5Nwirc-cc-33,BKP RO-CONTEXT,,,NDCGetReservationV3Response,,???,Relationship
+Nb4_3eX5eft5Nwirc-cc-34,BKP RO-CONTEXT,,,ObtenerLastDisruptionDate,,???,Relationship
+Nb4_3eX5eft5Nwirc-cc-35,BKP RO-CONTEXT,,,GetAirlineCompanies,,SOAP/HTTP,Relationship
+Nb4_3eX5eft5Nwirc-cc-36,BKP RO-CONTEXT,,SSE-FAVL,Contains Flight Info,,,Software System
+Nb4_3eX5eft5Nwirc-cc-37,BKP RO-CONTEXT,,,Gets the flight status,,JSON/HTTP,Relationship
+Nb4_3eX5eft5Nwirc-cc-38,BKP RO-CONTEXT,,DataLake,Data Lake - Routing Info,,,Software System
+Nb4_3eX5eft5Nwirc-cc-39,BKP RO-CONTEXT,,,Gets Origin Destination (Routing),,JSON/HTTP,Relationship
+Nb4_3eX5eft5Nwirc-cc-40,BKP RO-CONTEXT,,AWS getAirFlightInfo,Retrieves Flight Info,,AWS Lambda,Component
+Nb4_3eX5eft5Nwirc-cc-41,BKP RO-CONTEXT,,,Retrieve Flight Info,,JSON/HTTP,Relationship
+Nb4_3eX5eft5Nwirc-cc-42,BKP RO-CONTEXT,,assetsRESTClient,It seems a service to retunr Currencies,,???,Component
+Nb4_3eX5eft5Nwirc-cc-43,BKP RO-CONTEXT,,,GetCurrencies,,???,Relationship
+Nb4_3eX5eft5Nwirc-cc-44,BKP RO-CONTEXT,,ropRuleApiClientService,???,,???,Component
+Nb4_3eX5eft5Nwirc-cc-45,BKP RO-CONTEXT,,trm-apim/info/{{flowid}/security,???,,???,Component
+Nb4_3eX5eft5Nwirc-cc-46,BKP RO-CONTEXT,,,???,,???,Relationship
+Nb4_3eX5eft5Nwirc-cc-47,BKP RO-CONTEXT,,,,,,Relationship
+Nb4_3eX5eft5Nwirc-cc-48,BKP RO-CONTEXT,,,???,,???,Relationship
+Nb4_3eX5eft5Nwirc-cc-49,BKP RO-CONTEXT,,,???,,???,Relationship
+Nb4_3eX5eft5Nwirc-cc-50,BKP RO-CONTEXT,,AWS Accept Changes,???,,AWS Lambda,Component
+Nb4_3eX5eft5Nwirc-cc-51,BKP RO-CONTEXT,,,Retrieve Flight Info,,JSON/HTTP,Relationship
+Nb4_3eX5eft5Nwirc-cc-52,BKP RO-CONTEXT,,,RES.svc/IRES/AcceptChanges,,???,Relationship
+Nb4_3eX5eft5Nwirc-cc-53,BKP RO-CONTEXT,,ASS-FASS,ancilliaries summary,,,Software System
+Nb4_3eX5eft5Nwirc-cc-54,BKP RO-CONTEXT,,,GetAncilliaries,,???,Relationship
+Nb4_3eX5eft5Nwirc-cc-55,BKP RO-CONTEXT,,Iberia Customer,Any Iberia Customer,,,Person
+Nb4_3eX5eft5Nwirc-cc-56,BKP RO-CONTEXT,,Resiber .NET,Is a .NET WCF service wrapper to call Resiber Core System. It is stateless and macthing one-by-one service with Resiber core services exposition,,,Software System
+Nb4_3eX5eft5Nwirc-cc-57,BKP RO-CONTEXT,,,Retrieve Order Info via web/app/api,,JSON/HTTP,Relationship
+Nb4_3eX5eft5Nwirc-cc-58,BKP RO-CONTEXT,,,Retrieve Order,,Open TI,Relationship
+Nb4_3eX5eft5Nwirc-cc-59,BKP RO-CONTEXT,,COMO041,Is a .NET WCF service wrapper to call Resiber Core System. It is STATEFULL and macthing one-by-one service with Resiber core services exposition. Is faster as remaining the sesion can cache data,,,Software System
+Nb4_3eX5eft5Nwirc-cc-60,BKP RO-CONTEXT,,,Retrieve Order,,SOAP/HTTP,Relationship
+Nb4_3eX5eft5Nwirc-cc-61,BKP RO-CONTEXT,,,Retrieve Order,,Open TI,Relationship
+Nb4_3eX5eft5Nwirc-cc-62,BKP RO-CONTEXT,,NDC AWS,NDC microservices stack in AWS,,,Software System
+tA4xwXObSQkzN90xeEp--2,BT-SOLUTIONS,,Worldtracer,Disruption Baggage Tracking System,,,Software System
+tA4xwXObSQkzN90xeEp--3,BT-SOLUTIONS,,BPS,Baggage Platform System,,,Software System
+tA4xwXObSQkzN90xeEp--4,BT-SOLUTIONS,,,Publish Disruption Baggage Tracking Message,,Kafka Message,Relationship
+tA4xwXObSQkzN90xeEp--5,BT-SOLUTIONS,,IBDP,Iberia Data Platform,,,Software System
+tA4xwXObSQkzN90xeEp--6,BT-SOLUTIONS,,,Publish  Disruption Baggage Message / Tracking Message,,Kafka Message,Relationship
+JGpgoboqVEu2XrEiYFNv-0,BT-SOLUTIONS,Software System,Baggage Digitalization Platform,,,,SystemScopeBoundary
+JGpgoboqVEu2XrEiYFNv-1,BT-SOLUTIONS,,,Message Broker,Container,AWS EventBridge,Message Broker
+JGpgoboqVEu2XrEiYFNv-3,BT-SOLUTIONS,,,Publish  PIR-MDM Matching Messages / Tracking Message,,EventBridge Message,Relationship
+JGpgoboqVEu2XrEiYFNv-4,BT-SOLUTIONS,,,Consolidates PIR-MDM  Matching messages  in Salesforce,Container,Java,Salesforce  Orchestrator Lambda  
+JGpgoboqVEu2XrEiYFNv-5,BT-SOLUTIONS,,,Publish  PIR-MDM Matching Messages / Tracking Message,,EventBridge Message,Relationship
+JGpgoboqVEu2XrEiYFNv-6,BT-SOLUTIONS,,Salesforce,Iberia CRM System,,,Software System
+JGpgoboqVEu2XrEiYFNv-7,BT-SOLUTIONS,,,PIR-MDM Matching Request,,Rest (JSON / Http),Relationship
+JGpgoboqVEu2XrEiYFNv-8,BT-SOLUTIONS,,,Message Broker,Container,AWS SQS,Message Broker
+JGpgoboqVEu2XrEiYFNv-9,BT-SOLUTIONS,,,Triggers PIR  client's notifications  in SFMC,Container,Java,SFMC  Notification  Lambda
+JGpgoboqVEu2XrEiYFNv-10,BT-SOLUTIONS,,,Publish  PIR-MDM Matching Messages / Tracking Message,,SQS Message,Relationship
+JGpgoboqVEu2XrEiYFNv-11,BT-SOLUTIONS,,Salesforce Marketing Cloud,Iberia Notification System,,,Software System
+JGpgoboqVEu2XrEiYFNv-12,BT-SOLUTIONS,,,Notification Request,,Rest (JSON / Http),Relationship
+JGpgoboqVEu2XrEiYFNv-14,BT-SOLUTIONS,,,Publish  PIR-MDM Matching Messages,,SQS Message,Relationship
+bfb0N_fcd5gk3zUO9-Aq-0,BT-SOLUTIONS,,,Create / Update AUTOPIR,,JSON/HTTP,Relationship
+9Y4BC3LddxwDrhHXC4EB-0,BT-SOLUTIONS,,QPS,Baggage Platform System,,,Software System
+9Y4BC3LddxwDrhHXC4EB-1,BT-SOLUTIONS,,,Create SELFPIR,,JSON/HTTP,Relationship
+mKDg71hx92V40wfzanhe-0,BT-SOLUTIONS,,,Message Broker,Container,AWS SQS,Message Broker
+VJdsGvxxlI2sqcLFPH8G-0,BT-SOLUTIONS,,,Make HTTP Request to Worldtracer Create / Update PIRs  from Salesforce,Container,Java,Worldtracer  Lambda
+VJdsGvxxlI2sqcLFPH8G-1,BT-SOLUTIONS,,,Publish  PIR Creation / Update Message,,SQS Message,Relationship
+VJdsGvxxlI2sqcLFPH8G-2,BT-SOLUTIONS,,,Create / Update PIR Request,,JSON/HTTP,Relationship
+srJBNy4GpjcotRxIpAuv-2,BT-SOLUTIONS,,,Publish  PIR Creation / Update Message,,SQS Message,Relationship
+dkl524xyyxRZxrny-P0Q-1,BT-SOLUTIONS,,,Publish  Tracking Message,,SQS Message,Relationship
+dkl524xyyxRZxrny-P0Q-2,BT-SOLUTIONS,,,Make PIR Queries,,JSON/HTTP,Relationship
+Ol_Ghm5WmdSJkHJX3lfu-2,BT-BLOCKS,,Worldtracer,Disruption Baggage Tracking System,,,Software System
+Ol_Ghm5WmdSJkHJX3lfu-5,BT-BLOCKS,,IBDP,Iberia Data Platform,,,Software System
+Ol_Ghm5WmdSJkHJX3lfu-21,BT-BLOCKS,Software System,Baggage Digitalization Platform,,,,SystemScopeBoundary
+Ol_Ghm5WmdSJkHJX3lfu-22,BT-BLOCKS,,,Message Broker,Container,AWS EventBridge,Message Broker
+Ol_Ghm5WmdSJkHJX3lfu-23,BT-BLOCKS,,,Publish  PIR-MDM Matching Messages / Tracking Message,,EventBridge Message,Relationship
+Ol_Ghm5WmdSJkHJX3lfu-24,BT-BLOCKS,,,Consolidates PIR-MDM  Matching messages  in Salesforce,Container,Java,Salesforce  Orchestrator Lambda  
+Ol_Ghm5WmdSJkHJX3lfu-25,BT-BLOCKS,,,Publish  PIR-MDM Matching Messages / Tracking Message,,EventBridge Message,Relationship
+Ol_Ghm5WmdSJkHJX3lfu-26,BT-BLOCKS,,Salesforce,Iberia CRM System,,,Software System
+Ol_Ghm5WmdSJkHJX3lfu-27,BT-BLOCKS,,,PIR-MDM Matching Request,,Rest (JSON / Http),Relationship
+Ol_Ghm5WmdSJkHJX3lfu-28,BT-BLOCKS,,,Message Broker,Container,AWS SQS,Message Broker
+Ol_Ghm5WmdSJkHJX3lfu-29,BT-BLOCKS,,,Triggers PIR  client's notifications  in SFMC,Container,Java,SFMC  Notification  Lambda
+Ol_Ghm5WmdSJkHJX3lfu-30,BT-BLOCKS,,,Publish  PIR-MDM Matching Messages / Tracking Message,,SQS Message,Relationship
+Ol_Ghm5WmdSJkHJX3lfu-31,BT-BLOCKS,,Salesforce Marketing Cloud,Iberia Notification System,,,Software System
+Ol_Ghm5WmdSJkHJX3lfu-32,BT-BLOCKS,,,Notification Request,,Rest (JSON / Http),Relationship
+Ol_Ghm5WmdSJkHJX3lfu-33,BT-BLOCKS,,,Publish  PIR-MDM Matching Messages,,SQS Message,Relationship
+Ol_Ghm5WmdSJkHJX3lfu-37,BT-BLOCKS,,,Message Broker,Container,AWS SQS,Message Broker
+Ol_Ghm5WmdSJkHJX3lfu-38,BT-BLOCKS,,,Make HTTP Request to Worldtracer Create / Update PIRs  from Salesforce,Container,Java,Worldtracer  Lambda
+Ol_Ghm5WmdSJkHJX3lfu-39,BT-BLOCKS,,,Publish  PIR Creation / Update Message,,SQS Message,Relationship
+Ol_Ghm5WmdSJkHJX3lfu-40,BT-BLOCKS,,,Create / Update PIR Request,,JSON/HTTP,Relationship
+Ol_Ghm5WmdSJkHJX3lfu-41,BT-BLOCKS,,,Publish  PIR Creation / Update Message,,SQS Message,Relationship
+Ol_Ghm5WmdSJkHJX3lfu-42,BT-BLOCKS,,,Publish  Tracking Message,,SQS Message,Relationship
+Ol_Ghm5WmdSJkHJX3lfu-43,BT-BLOCKS,,,Make PIR Queries,,JSON/HTTP,Relationship
+mHDIW8Sr7smsJA63smMt-1,BT-BLOCKS,Boundary,System's Information Consolidation STEP,,,,ContainerScopeBoundary
+mHDIW8Sr7smsJA63smMt-2,BT-BLOCKS,Boundary,Customer's Notifications STEP,,,,ContainerScopeBoundary
+mHDIW8Sr7smsJA63smMt-3,BT-BLOCKS,Boundary,Event Processing STEP,,,,ContainerScopeBoundary
