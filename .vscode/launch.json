@@ -13,7 +13,7 @@
             ],
             "program": "${workspaceFolder}\\app.js",
             //"args": ["json","tests/test1.json","tests/objectAnalysis.csv"]
-            "args": ["xml","tests/OrderRetrieve-DomainModel-Architecture.drawio.xml",
+            "args": ["xml","tests/Tests2-ObjectAnalyzer.drawio.xml",
                 "tests/c4.csv", "c4"]
         }
     ]
