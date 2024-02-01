@@ -1,8 +1,13 @@
+const fs = require('fs')
+const utils = require('./utils');
+
+
 const COLUMN_REPLACER = "|";
 const LINE_REPLACER  = " ";
 const COLUMN_SEPARATOR = ",";
+const NEW_LINE = "\n";
 const regExCol = new RegExp(COLUMN_SEPARATOR,"g");
-const regExNL = new RegExp("\n","g");
+const regExNL = new RegExp(NEW_LINE,"g");
 
 const ensureValidColValue = (val) => {
     if (val == undefined)
@@ -21,6 +26,33 @@ const ensureValidColValue = (val) => {
     }
 }
 
+
+
+/**
+ * 
+ * @param {*} outputArray 
+ * @param {*} outputFilePath 
+ * @param {*} sort 
+ */
+const writeToFile = (outputArray,outputFilePath, columnNames) =>{
+    var content = columnNames.join(COLUMN_SEPARATOR) + NEW_LINE;
+    outputArray.forEach(element => {
+        columnNames.forEach(column => {
+            content = content + ensureValidColValue(element[column]) + COLUMN_SEPARATOR ;
+        });
+        content = content + NEW_LINE;
+    });
+  
+    try {
+      fs.writeFileSync(outputFilePath, content);
+      // file written successfully
+    } catch (err) {
+      console.error(err);
+    }
+}
+
 module.exports = {
-    ensureValidColValue: ensureValidColValue
+    ensureValidColValue: ensureValidColValue,
+    writeToFile: writeToFile
+
  }

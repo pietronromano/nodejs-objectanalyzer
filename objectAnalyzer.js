@@ -12,7 +12,6 @@ const COLUMN_REPLACER = "|";
  * @param {*} sort 
  */
 const writeToFile = (outputArray,outputFilePath, sort = false) =>{
-    var content = "Id,Path,Level,Index,Property,Type,Value\n";
     //best not to sort, keeps order found in json file
     if(sort) {
         outputArray.sort((a, b) => {
@@ -21,24 +20,8 @@ const writeToFile = (outputArray,outputFilePath, sort = false) =>{
             return 0;
         });
     }
-
-    outputArray.forEach(element => {
-      content = content + element.id + COLUMN_SEPARATOR  
-                        + element.path + COLUMN_SEPARATOR
-                        + element.level + COLUMN_SEPARATOR
-                        + element.arrayIndex + COLUMN_SEPARATOR
-                        + element.property + COLUMN_SEPARATOR
-                        + element.propertyType  + COLUMN_SEPARATOR
-                        + element.val + "\n"
-
-    });
-  
-    try {
-      fs.writeFileSync(outputFilePath, content);
-      // file written successfully
-    } catch (err) {
-      console.error(err);
-    }
+    var columns = "id,path,level,index,property,type,value";
+    utils.writeToFile(outputArray,outputFilePath,columns.split(COLUMN_SEPARATOR));
 }
 
 /**

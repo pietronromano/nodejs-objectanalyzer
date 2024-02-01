@@ -11,26 +11,8 @@ const PATH_SEPARATOR = "/";
  * @param {*} sort 
  */
 const writeToFile = (outputArray,outputFilePath) =>{
-    var content = "Id,Diagram,c4Application,c4Name,c4Container,c4Parent,c4Path,c4Technology,c4Type,c4Description\n";
-    outputArray.forEach(element => {
-      content = content + element.id + COLUMN_SEPARATOR  
-            + element.diagram + COLUMN_SEPARATOR
-            + utils.ensureValidColValue(element.c4Application) + COLUMN_SEPARATOR
-            + utils.ensureValidColValue(element.c4Name) + COLUMN_SEPARATOR
-            + utils.ensureValidColValue(element.c4Container) + COLUMN_SEPARATOR
-            + utils.ensureValidColValue(element.c4Parent) + COLUMN_SEPARATOR
-            + utils.ensureValidColValue(element.c4Path) + COLUMN_SEPARATOR
-            + utils.ensureValidColValue(element.c4Technology) + COLUMN_SEPARATOR
-            + utils.ensureValidColValue(element.c4Type) + COLUMN_SEPARATOR 
-            + utils.ensureValidColValue(element.c4Description) + "\n"
-    });
-  
-    try {
-      fs.writeFileSync(outputFilePath, content);
-      // file written successfully
-    } catch (err) {
-      console.error(err);
-    }
+    var columns = "id,diagram,c4Application,c4Name,c4Container,c4Parent,c4Path,c4Technology,c4Type,c4Description";
+    utils.writeToFile(outputArray,outputFilePath,columns.split(COLUMN_SEPARATOR));
 }
 
 /**
@@ -61,7 +43,11 @@ const analyzeProperties = (outputArray,obj)  =>{
                         c4Path: e.$.c4Path,
                         c4Description: e.$.c4Description, 
                         c4Technology: e.$.c4Technology, 
-                        c4Type: e.$.c4Type 
+                        c4Type: e.$.c4Type,
+                        c4Target: e.mxCell[0].$.target,
+                        c4Source: e.mxCell[0].$.source,
+                        c4IsTargetOf:[],
+                        c4IsSourceOf: []
                     };
 
                     //Try to ensure a name
@@ -83,7 +69,48 @@ const analyzeProperties = (outputArray,obj)  =>{
 
    //Links the parents
    linkParents(outputArray);
+
+   //Links the relationships
+   linkRelationships(outputArray);
 }
+
+const findElement = (outputArray,id) =>{
+    if(!id) return;
+    for (let i = 0; i < outputArray.length; i++) {
+        const element = outputArray[i];
+        if (element.id == id)
+            return element;
+    }
+}
+
+const linkRelationships = (outputArray) =>{
+    outputArray.forEach(element => {
+        if(element.c4Type === "Relationship"){
+            var source = findElement(outputArray,element.c4Source);
+            var target = findElement(outputArray,element.c4Target);
+            if (source && target) {
+                source.c4IsSourceOf.push(element.c4Description + PATH_SEPARATOR + target.c4Name);
+                target.c4IsTargetOf.push(source.c4Name + PATH_SEPARATOR + element.c4Description );
+            }
+
+        }
+    });
+      
+    //Set paths after parents
+    outputArray.forEach(element => {
+        let parents = [];
+        parent = element.parentElement;
+        while (parent) {
+            parents.push(parent);
+            parent = parent.parentElement;
+        }
+        parents.reverse();
+        parents.forEach(parent => {
+            element.c4Path = parent.c4Path + PATH_SEPARATOR + element.c4Name;
+        });
+        console.log(element.c4Path);
+    });
+ }
 
 const linkParents = (outputArray) =>{
     outputArray.forEach(element => {
@@ -107,9 +134,7 @@ const linkParents = (outputArray) =>{
         });
         console.log(element.c4Path);
     });
-    
-
-}
+ }
 
 const isInside = (outer, inner) => {
     if (outer.diagram != inner.diagram)
