@@ -15,15 +15,28 @@ const ensureValidColValue = (val) => {
         return "";
     }
     else {
-        //Remove unwanted characters
+        if (Array.isArray(val)) {
+            val = val.join(COLUMN_REPLACER);
+            val = cleanString(val);
+        } else       //Remove unwanted characters
         if(typeof val === "string") {
-            if(val.search(COLUMN_SEPARATOR)) 
-                val = val.replace(regExCol,COLUMN_REPLACER);
-            if(val.search("\n"))
-                val = val.replace(regExNL,LINE_REPLACER);
+            val = cleanString(val);
         }
         return val;
     }
+}
+
+const cleanString = (val) => {
+    if(!val)
+        return "";
+    if(typeof val != "string") 
+        return val;
+    if(val.search(COLUMN_SEPARATOR)) 
+        val = val.replace(regExCol,COLUMN_REPLACER);
+    if(val.search("\n"))
+        val = val.replace(regExNL,LINE_REPLACER);
+
+    return val;
 }
 
 

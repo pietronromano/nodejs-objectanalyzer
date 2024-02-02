@@ -11,7 +11,8 @@ const PATH_SEPARATOR = "/";
  * @param {*} sort 
  */
 const writeToFile = (outputArray,outputFilePath) =>{
-    var columns = "id,diagram,c4Application,c4Name,c4Container,c4Parent,c4Path,c4Technology,c4Type,c4Description";
+    var columns = "id,diagram,c4Application,c4Name,c4Container,c4Parent,"
+     +  "c4RelSource,c4RelTarget,c4RelIsTargetOf,c4RelIsSourceOf,c4Path,c4Technology,c4Type,c4Description";
     utils.writeToFile(outputArray,outputFilePath,columns.split(COLUMN_SEPARATOR));
 }
 
@@ -44,10 +45,10 @@ const analyzeProperties = (outputArray,obj)  =>{
                         c4Description: e.$.c4Description, 
                         c4Technology: e.$.c4Technology, 
                         c4Type: e.$.c4Type,
-                        c4Target: e.mxCell[0].$.target,
-                        c4Source: e.mxCell[0].$.source,
-                        c4IsTargetOf:[],
-                        c4IsSourceOf: []
+                        c4RelTarget: e.mxCell[0].$.target,
+                        c4RelSource: e.mxCell[0].$.source,
+                        c4RelIsTargetOf:[],
+                        c4RelIsSourceOf: []
                     };
 
                     //Try to ensure a name
@@ -86,11 +87,11 @@ const findElement = (outputArray,id) =>{
 const linkRelationships = (outputArray) =>{
     outputArray.forEach(element => {
         if(element.c4Type === "Relationship"){
-            var source = findElement(outputArray,element.c4Source);
-            var target = findElement(outputArray,element.c4Target);
+            var source = findElement(outputArray,element.c4RelSource);
+            var target = findElement(outputArray,element.c4RelTarget);
             if (source && target) {
-                source.c4IsSourceOf.push(element.c4Description + PATH_SEPARATOR + target.c4Name);
-                target.c4IsTargetOf.push(source.c4Name + PATH_SEPARATOR + element.c4Description );
+                source.c4RelIsSourceOf.push(element.c4Description + PATH_SEPARATOR + target.c4Name);
+                target.c4RelIsTargetOf.push(source.c4Name + PATH_SEPARATOR + element.c4Description );
             }
 
         }
